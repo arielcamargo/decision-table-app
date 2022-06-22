@@ -1,0 +1,45 @@
+/*Author: Ariel Camargo*/
+h1
+{
+  margin-top: 0;
+  margin-bottom: 1px;
+  margin-left: 10px;
+
+}
+
+table
+{
+  border-style: solid;
+
+}
+
+tr
+{
+  border:solid;
+}
+
+td
+{
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+th
+{
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.white
+{
+  background-color: white;
+}
+
+.green
+{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
