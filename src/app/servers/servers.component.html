@@ -1,0 +1,145 @@
+<!--Author: Ariel Camargo-->
+<!--Decision Table based on one found-->
+<!--in this video https://www.youtube.com/watch?v=YIMLS8xOufw-->
+<header style="text-align: center"> Decision Tables Demo</header>
+<body class="{{bgColor}}">
+<h1 style="text-align: center">
+
+
+  <div>
+  <table>
+    <tr>
+      <th style="text-align: center">Situations:</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+    </tr>
+    <tr>
+      <td>Has a bank account?</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>Lived at same address for > 1yr?</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>Is a home owner?</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>Can Subscribe</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Can't Subscribe</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+    </tr>
+<!--    <tr>-->
+<!--      <td>Can Subscribe</td>-->
+<!--      <td>X</td>-->
+<!--      <td></td>-->
+<!--      <td>X</td>-->
+<!--      <td></td>-->
+<!--      <td></td>-->
+<!--      <td></td>-->
+<!--      <td></td>-->
+<!--      <td></td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--      <td>Can't Subscribe</td>-->
+<!--      <td></td>-->
+<!--      <td>X</td>-->
+<!--      <td></td>-->
+<!--      <td>X</td>-->
+<!--      <td>X</td>-->
+<!--      <td>X</td>-->
+<!--      <td>X</td>-->
+<!--      <td>X</td>-->
+<!--    </tr>-->
+  </table>
+</div>
+<div>
+  Has a bank account?
+  <input type="radio"
+         id="T1"
+         name="choice1"
+         (click)="onClicked('T1')">
+  <label for="T1">True</label>
+  <input type="radio"
+         id="F1"
+         name="choice1"
+         (click)="onClicked('F1')">
+  <label for="F1">False</label>
+</div>
+
+<div>
+  Lived in same address for longer than a year?
+  <input type="radio"
+         id="T2"
+         name="choice2"
+         (click)="onClicked('T2')">
+  <label for="T2">True</label>
+  <input type="radio"
+         id="F2"
+         name="choice2"
+         (click)="onClicked('F2')">
+  <label for="F2">False</label>
+</div>
+
+<div>
+  Is a home owner?
+  <input type="radio"
+         id="T3"
+         name="choice3"
+         (click)="onClicked('T3')">
+  <label for="T3">True</label>
+  <input type="radio"
+         id="F3"
+         name="choice3"
+         (click)="onClicked('F3')">
+  <label for="F3">False</label>
+</div>
+
+<!--  <div>{{ result }}</div>-->
+</h1>
+</body>
