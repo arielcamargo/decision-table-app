@@ -2,9 +2,9 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-servers',
-  templateUrl: './servers.component.html',
-  styleUrls: ['./servers.component.css']
+  selector: 'app-decisionTables',
+  templateUrl: './decisionTable.component.html',
+  styleUrls: ['./decisionTable.component.css']
 })
 
 export class ServersComponent implements OnInit
